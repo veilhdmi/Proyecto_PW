@@ -1,0 +1,25 @@
+.btn{
+    background-color: #018ABE;
+    color: white;
+}
+.backgc{
+    background-color: #252525;
+}
+.txt{
+    font-family: 'Montserrat', sans-serif;
+}
+::placeholder{
+    color:rgb(236, 15, 15);
+    opacity: 1;
+}
+input{
+    color: white;
+}
+input:placeholder-shown, textarea:placeholder-shown{
+    background-color: transparent;
+    color: white;
+}
+input:focus,textarea:focus, div:focus{
+    outline: none!important;
+}
+
