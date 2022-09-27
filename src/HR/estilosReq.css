@@ -19,7 +19,5 @@ input:placeholder-shown, textarea:placeholder-shown{
     background-color: transparent;
     color: white;
 }
-input:focus,textarea:focus, div:focus{
-    outline: none!important;
-}
+
 

@@ -2,7 +2,7 @@ import './estilosReq.css'
 const Req19 = () =>{
     return  <div className='backgc w-100 h-100 py-5 txt'>
                 <div className="container align-items-center w-50 mt-5">
-                        <div className="mb-4 text-center text-light border-bottom border-light">
+                        <div className="mb-4 text-center text-light border-bottom border-light pb-3">
                             <h3>Submit a Request</h3>
                         </div>    
                         <div className="mb-3">
