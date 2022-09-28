@@ -19,5 +19,11 @@ input:placeholder-shown, textarea:placeholder-shown{
     background-color: transparent;
     color: white;
 }
-
-
+.iframecss{
+    margin: 0 auto;
+    display: block!important;
+}
+.nah{
+    width: 700px;
+    height: 500px;
+}

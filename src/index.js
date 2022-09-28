@@ -4,7 +4,8 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 //import Req19 from './HR/Req19';
-import Req20 from './HR/Req20';
+//import Req21 from './HR/Req21';
+import Req20 from './Req20';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
