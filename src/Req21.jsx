@@ -1,29 +1,61 @@
 import './estilosReq.css'
-import React from 'react';
-import {Carousel} from 'react-bootstrap';
+import "./index.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Req21() {
-  return (
-    <Carousel slide={false} interval={null}>
-      <Carousel.Item>
-        <div className='d-flex justify-content-center w-100 align-self-center'>
-          <iframe className="nah" src="https://www.youtube.com/embed/MD6kskn5lmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  return <div>
+    <div className='container txt'>
+      <div className='h1 pb-3 pt-5 border-bottom text-white'>
+        Influencers
+      </div>
+      <div className='row pt-3'>
+        <div className='col align-self-start bg-secondary px-0 mx-5 mb-5'>
+          <div className='mw-auto' id='foriframe'>
+            <iframe className='d-block m-auto' src="https://www.youtube.com/embed/u3Fms7pS2uM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+          <div className='bg-primary p-3'>
+            <div className='d-flex align-items-start comillas flex-column'>
+              "
+            </div>
+            
+            <div className='align-self-center '>
+              <p className="descrip m-0">
+                The computers are complete and their functionalities are enough for 
+                a good performance.... 
+              </p>
+            </div>
+            <div className='d-flex align-items-end comillas flex-column'>
+              "
+            </div>
+          </div>
         </div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div className='d-flex justify-content-center w-100 align-self-center'>
-          <iframe className="nah" src="https://www.youtube.com/embed/MD6kskn5lmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div className='col align-self-start bg-secondary px-0 mx-5 mb-5'>
+          <div className='mw-auto' id='foriframe'>
+            <iframe className='d-block m-auto' src="https://www.youtube.com/embed/u3Fms7pS2uM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+          <div className='bg-primary p-3'>
+            <div className='d-flex align-items-start comillas flex-column'>
+              "
+            </div>
+            
+            <div className='align-self-center '>
+              <p className="descrip m-0">
+                The computers are complete and their functionalities are enough for 
+                a good performance.... 
+              </p>
+            </div>
+            <div className='d-flex align-items-end comillas flex-column'>
+              "
+            </div>
+          </div>
         </div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div className='d-flex justify-content-center w-100 align-self-center'>
-          <iframe className="nah" src="https://www.youtube.com/embed/MD6kskn5lmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </Carousel.Item>
-      
-    </Carousel>
-  );
+
+      </div>
+    </div>
+    
+  </div>
 }
 
 export default Req21;

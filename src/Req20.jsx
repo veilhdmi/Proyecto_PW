@@ -2,9 +2,9 @@
 import './estilosReq.css'
 //import logo from '../logo.svg';
 const Req20 = () =>{
-    return <div className="container ml-5 txt">
+    return <div className="container txt">
                 <h1 class="my-4 ">Reseñas</h1>
-                <div className="mr-3 pt-4 pb-5 border-top">
+                <div className="pt-4 pb-5 border-top">
                     <div className="position-relative ml-2">
                         <div className="d-inline-block pt-1 align-top">
                             <span className="float-left mr-2 w-0 h5">Sara H.</span>
@@ -23,7 +23,7 @@ const Req20 = () =>{
                         </div>
                     </div>
                 </div>               
-                <div className="mr-3 pt-4 pb-5 border-top">
+                <div className="pt-4 pb-5 border-top">
                     <div className="position-relative ml-2">
                         <div className="d-inline-block pt-1 align-top">
                             <span className="float-left mr-2 w-0 h5">Sara H.</span>
