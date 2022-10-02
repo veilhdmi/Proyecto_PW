@@ -4,8 +4,9 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 //import Req19 from './Req19';
-import Req20y21 from './Req20y21';
+import Req20y21 from './HR/Req20y21';
 //import Req20 from './Req20';
+//import probando from './burger/probando.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

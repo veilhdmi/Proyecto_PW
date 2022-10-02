@@ -25,7 +25,7 @@ iframe{
   color: white;
   font-size: 35px;
 }
-@media(max-width:400px) {
+@media(max-width:1040px) {
   #foriframe {
       height: 200px;
   }
