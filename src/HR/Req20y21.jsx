@@ -7,7 +7,7 @@ import React from "react";
 import "./estilosReq.css"
 
 const Req20y21= () =>{
-    return <div className="w-auto">
+    return <div className="w-auto bg-white mt-0">
         <div>
             <Req20/>
         </div>    

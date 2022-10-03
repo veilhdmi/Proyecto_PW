@@ -5,12 +5,18 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes,Route} from 'react-router-dom';
 
-import Burger from './burger/Burger';
-import EditarPerfil from './edit/EditarPerfil';
+
+import Editar from './Danah/editar';
 import Req19 from './HR/Req19';
 import Req20y21 from './HR/Req20y21';
 import Req14 from './HR/Req14';
+import Cq from './proyecto_linares/Commonquestions';
 //import Req20 from './Req20';
+import Burger from "./Danah/burger"
+import Register from "./Danah/register"
+import Login from "./hector/login"
+import Support from './proyecto_linares/support';
+import Ranking from "./proyecto_linares/ranking"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +27,14 @@ root.render(
         <Route path='/Req19' element={<Req19/>} />
         <Route path='/Req14' element={<Req14/>}/>
         <Route path='/Burger' element={<Burger/>}/>
-        <Route path='/EditarPerfil' element={<EditarPerfil/>}/>
+        <Route path='/Editar' element={<Editar/>}/>
+        <Route path='/Cq' element={<Cq/>}/>
+        <Route path='/Register' element={<Register/>}/>
+        <Route path='/Login' element={<Login/>}/>
+        <Route path='/Ranking' element={<Ranking/>}/>
+        <Route path='/Support' element={<Support/>}/>
+        
+        
       </Routes>
       
     </BrowserRouter>
