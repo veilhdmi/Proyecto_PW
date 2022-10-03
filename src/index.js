@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
-        <Route path='https://veilhdmi.github.io/proyecto_pw' element={<Req20y21/>} />
+        <Route path='/Req20y21' element={<Req20y21/>} />
         <Route path='/Req19' element={<Req19/>} />
         <Route path='/Req14' element={<Req14/>}/>
       </Routes>
