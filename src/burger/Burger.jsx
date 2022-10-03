@@ -1,4 +1,5 @@
 import logousuario from "./logousuario.png"
+import {Link} from "react-router-dom";
 const Burger = () => {
     return <div>
         <nav class="navbar navbar-dark bg-dark">
@@ -9,10 +10,10 @@ const Burger = () => {
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <ul >
                         <li class="nav-item active">
-                            <a class="nav-link text-white" href="https://github.com/">Informacion de Usuario</a>
+                            <Link to={"/EditarPerfil"} style={{ textDecoration: 'none' }}> <p class="nav-link text-white">Informacion de Usuario</p></Link>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link  text-white" href="https://github.com/">Historial de compra</a>
+                        <Link to={"/Req14"} style={{ textDecoration: 'none' }}><p class="nav-link  text-white">Historial de compra</p></Link>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="https://github.com/">Log out</a>
