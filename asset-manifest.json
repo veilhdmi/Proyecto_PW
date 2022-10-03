@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/proyecto_pw/static/css/main.779b0d29.css",
+    "main.js": "/proyecto_pw/static/js/main.025e9db7.js",
+    "static/js/787.3cdb8cfd.chunk.js": "/proyecto_pw/static/js/787.3cdb8cfd.chunk.js",
+    "static/media/intel.png": "/proyecto_pw/static/media/intel.652482f52701d1763409.png",
+    "static/media/teclado.png": "/proyecto_pw/static/media/teclado.badc2b91f2b99af2023c.png",
+    "static/media/tecnonauta.jpg": "/proyecto_pw/static/media/tecnonauta.64dce267ad1b47ee486a.jpg",
+    "static/media/varo.jpg": "/proyecto_pw/static/media/varo.4fd2972e1f5e565a7c1d.jpg",
+    "index.html": "/proyecto_pw/index.html",
+    "main.779b0d29.css.map": "/proyecto_pw/static/css/main.779b0d29.css.map",
+    "main.025e9db7.js.map": "/proyecto_pw/static/js/main.025e9db7.js.map",
+    "787.3cdb8cfd.chunk.js.map": "/proyecto_pw/static/js/787.3cdb8cfd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.779b0d29.css",
+    "static/js/main.025e9db7.js"
+  ]
+}
