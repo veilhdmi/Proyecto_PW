@@ -5,8 +5,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes,Route} from 'react-router-dom';
 
-//import Probando from './burger/Probando.jsx';
-//import EditarPerfil from './edit/EditarPerfil';
+import Burger from './burger/Burger';
+import EditarPerfil from './edit/EditarPerfil';
 import Req19 from './HR/Req19';
 import Req20y21 from './HR/Req20y21';
 import Req14 from './HR/Req14';
@@ -20,6 +20,8 @@ root.render(
         <Route path='/Req20y21' element={<Req20y21/>} />
         <Route path='/Req19' element={<Req19/>} />
         <Route path='/Req14' element={<Req14/>}/>
+        <Route path='/Burger' element={<Burger/>}/>
+        <Route path='/EditarPerfil' element={<EditarPerfil/>}/>
       </Routes>
       
     </BrowserRouter>

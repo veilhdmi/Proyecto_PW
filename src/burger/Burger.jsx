@@ -1,5 +1,5 @@
 import logousuario from "./logousuario.png"
-const Probando = () => {
+const Burger = () => {
     return <div>
         <nav class="navbar navbar-dark bg-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,4 +24,4 @@ const Probando = () => {
     </div>
           
 }
-export default Probando;
+export default Burger;
