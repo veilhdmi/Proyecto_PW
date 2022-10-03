@@ -1,7 +1,7 @@
 import './estilosReq.css'
 const Req19 = () =>{
     return  <div className='backgc w-100 h-100 py-5 txt'>
-                <div className="container align-items-center w-50 mt-5">
+                <div className="container align-items-center w-50 mt-4 cellp">
                         <div className="mb-4 text-center text-light border-bottom border-light pb-3">
                             <h3>Submit a Request</h3>
                         </div>    
@@ -20,8 +20,8 @@ const Req19 = () =>{
                         <div className="mb-3">   
                             <textarea className='form-control w-100 rounded-0 border border-light' rows="6" id="description" placeholder="Description" required></textarea>
                         </div>
-                        <div className="d-flex justify-content-center rounded-0">
-                            <button className='btn' type="submit">Submit</button>
+                        <div className="d-flex justify-content-center rounded-0 ">
+                            <button className='btn btn-primary text-light' type="submit">Submit</button>
                         </div>
                 </div>
             </div> 

@@ -3,14 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-//import Req19 from './Req19';
+import {BrowserRouter, Routes,Route} from 'react-router-dom';
+
+//import Probando from './burger/Probando.jsx';
+//import EditarPerfil from './edit/EditarPerfil';
+import Req19 from './HR/Req19';
 import Req20y21 from './HR/Req20y21';
+import Req14 from './HR/Req14';
 //import Req20 from './Req20';
-//import probando from './burger/probando.jsx';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Req20y21/>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/Req20y21' element={<Req20y21/>} />
+        <Route path='/Req19' element={<Req19/>} />
+        <Route path='/Req14' element={<Req14/>}/>
+      </Routes>
+      
+    </BrowserRouter>
   </React.StrictMode>
 );
 

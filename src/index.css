@@ -12,27 +12,6 @@ code {
     monospace;
 }
 
-iframe{
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-#foriframe{
-  height: 350px;
-}
-.comillas{
-  font-family:fantasy;
-  color: white;
-  font-size: 35px;
-}
-@media(max-width:1040px) {
-  #foriframe {
-      height: 200px;
-  }
-  .descrip{
-    font-size: 12px;
-  }
-}
 /*
 *{
   margin: 0;

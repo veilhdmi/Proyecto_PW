@@ -1,28 +1,27 @@
-import './burgerUser.css'
-import logousuario from './logousuario.png';
-const probando = () =>{
+import logousuario from "./logousuario.png"
+const Probando = () => {
     return <div>
-         <nav className="navbar navbar-dark bg-dark">
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-              <img alt='' src={logousuario} width="30" height="30"/>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img alt = "" src={logousuario} width="30" height="30" />
             </button>
-              <div className="collapse navbar-collapse" id="navbarToggleExternalContent">
-                    <nav className="navbar navbar-expand-lg navbar-light ">
-                        <ul >
-                        <li className="nav-item active">
-                            <div className="nav-link text-white">Informacion de Usuario</div>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <ul >
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="https://github.com/">Informacion de Usuario</a>
                         </li>
-                        <li className="nav-item ">
-                            <div className="nav-link  text-white">Historial de compra</div>
+                        <li class="nav-item ">
+                            <a class="nav-link  text-white" href="https://github.com/">Historial de compra</a>
                         </li>
-                        <li className="nav-item">
-                            <div className="nav-link text-white">Log out</div>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="https://github.com/">Log out</a>
                         </li>
-                        </ul>
-                    </nav>
-              </div>
-           </nav>
-        </div>
-      
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
+          
 }
-export default probando;
+export default Probando;
