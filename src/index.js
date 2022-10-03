@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Routes,Route} from 'react-router-dom';
+import {HashRouter, Routes,Route} from 'react-router-dom';
 
 //import Probando from './burger/Probando.jsx';
 //import EditarPerfil from './edit/EditarPerfil';
@@ -15,14 +15,14 @@ import Req14 from './HR/Req14';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/Req20y21' element={<Req20y21/>} />
         <Route path='/Req19' element={<Req19/>} />
         <Route path='/Req14' element={<Req14/>}/>
       </Routes>
       
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
